@@ -271,3 +271,14 @@
 [django学习地址](http://usyiyi.cn/translate/django_182/index.html)
 
 [git-liaoxuefeng](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743858312764dca7ad6d0754f76aa562e3789478044000)
+
+##git版本管理命令
+- 1. git add filename #(把文件提交到暂存区stage/index)
+- 2. git commit filename -m 'modify record' #(提交到master区--分支)
+- 3.  git status #查看修改内容
+- 4. git diff filename #查看文件修改记录
+- 5. git log/reflog #查看版本及修改记录
+- 6. git reset --hard HEAD^ #回朔上个版本(HEAD是master指针）
+- 7. git reset --hard version #指定到特地版本
+- 8. git checkout -- file #从版本库切出指定文件
+- 9. git rm file #删除文件
