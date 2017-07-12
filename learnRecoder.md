@@ -283,3 +283,6 @@
 - 8. git checkout -- file #从版本库切出指定文件
 - 9. git rm file #删除文件
 - 10. git remote add origin git@github.com:
+- 11. git checkout -b newmastername #克隆切换新分支
+- 12. git branch mastername git checkout mastername #等价于11条
+- 13.
