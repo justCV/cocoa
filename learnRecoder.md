@@ -285,4 +285,10 @@
 - 10. git remote add origin git@github.com:
 - 11. git checkout -b newmastername #克隆切换新分支
 - 12. git branch mastername git checkout mastername #等价于11条
-- 13.
+- 13. git merge < name > #把name合并到当前分支上
+- 14. git branch -d < name > #把name分支删除
+- 15. git merge --no-ff -m "merge intro" < name > #--no-ff 表示禁用fast forward方式
+- 16. git remote -v #查看远程库信息
+- 17. git tag < name > [commit ID] #为指定版本添加标签，默认当前版本
+- 18. git show < tagname > #显示指定版本信息
+- 19. git tag -a < tagname > -m "tag info" [head ID] #
