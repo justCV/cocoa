@@ -292,3 +292,8 @@
 - 17. git tag < name > [commit ID] #为指定版本添加标签，默认当前版本
 - 18. git show < tagname > #显示指定版本信息
 - 19. git tag -a < tagname > -m "tag info" [head ID] #
+- 20. git tag -d < tagname > #删除标签
+- 21. git push origin < tagname > #
+- 22. git push orign --tags #推送所有远程
+- 23. git check-ignore -v filename #忽略文件
+- 24. git config --global alias.aliasName command #系统命令指定别名
